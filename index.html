@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>한길햄 청첩장</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@200&display=swap');
+      * {
+        font-family: 'Noto Serif KR', serif;
+      }  
+      body, h1, h2, h3, p, a {
+            font-size: 16px;
+            margin: 0px;
+            padding: 0px;
+            text-decoration: none;
+            font-weight: normal;
+        }
+        .warp {
+            width: 350px;
+            margin: auto;
+            text-align: center;
+        }
+        .warp > h1 {
+            padding: 16px;
+            background-color: pink;
+            color: white;
+            font-weight: bold;
+            font-size: 30px;
+            border-radius: 8px;
+        }
+        .pic {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-top: 30px;
+        }
+        .pic >h2 {
+            color: pink;
+            letter-spacing: 3px;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .pic > img {
+            width: 350px;
+            margin-top: 15px;
+            border: 2px solid pink;
+            
+        }
+        .pic > span {
+            color: pink;
+            font-size: 25px;
+            margin-top: 20px;
+            font-weight: bold;
+        }
+        .name {
+            text-align: center;
+            margin-top: 20px;
+            color: pink;
+            font-size: 25px;
+            border-top: 3px solid pink;
+            border-bottom: 3px solid pink;
+            width: 250px;
+            margin: 30px auto 30px auto;
+            font-weight: bold;
+            letter-spacing: 5px;
+        }
+        .inv {
+            color: white;
+            font-size : 20px;
+            
+            text-align: center;
+        }
+        .main {
+            width: 350px;
+            background-color: pink;
+            color: white;
+            padding: 20px;
+            margin: 40px auto 40px auto;
+            
+        }
+        .msg {
+            line-height: 30px;
+            margin-top: 30px;
+            margin-bottom: 30px;
+            text-align: left;
+        }
+        .place {
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .bottom {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+        .bottom > p {
+            font-size: 20px;
+            text-align: center;
+            color: pink;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        .bottom > input {
+            width: 250px;
+            margin-bottom: 10px;
+        }
+        .bottom > textarea {
+            width: 250px;
+            height: 100px;
+            margin-top: 10px;
+        }
+        .bottom > button {
+            width: 150px;
+            height: 50px;
+            margin-top: 20px;
+            background-color: pink;
+            color: white;
+            border-radius: 8px;
+            border: none;
+            font-size: 15px;
+            font-weight: bold;
+            cursor:pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="warp"> 
+        <h1>한길햄 청첩장</h1>
+    </div>
+    <div class="pic">
+        <p><h2>Save The Date</h2></p>
+        <img src="wedding.png">
+        <span>2023년 02월 00일</span>
+    </div>
+    <div class="name">
+        한길 & 혜민
+    </div>
+    <div class="main">
+        <p class="inv">INVITATION</p>
+        <p class="msg">서로 다른 두사람이 만나
+            <br>사랑으로 하나 되는 자리에
+            <br>소중한 여러분들을 초대합니다.
+            <br>기쁠 때나, 슬플 때나
+            <br>서로를 사랑으로 품으며
+            <br>행복의 계단을 쌓아가겠습니다.
+            <br>저희의 첫 시작을 함께 해주신다면
+            <br>감사한 마음 깊이 간직하며 잘 살겠습니다.
+        </p>
+        <p class="place">2023. 02. 00. Sat. PM 00:00
+            <br>부천 MJ컨벤션</p>
+    </div>
+    <div class="bottom">
+        <p>축하메세지를남겨주세요</p>
+        <input type="text" placeholder="이름">
+        <textarea placeholder="메세지를 남겨주세요"></textarea>
+        <button>메세지 남기기</button>
+    </div>
+   
+</body>
+</html>
